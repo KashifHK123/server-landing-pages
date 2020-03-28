@@ -1,8 +1,8 @@
 ######################################
 ##### if required htpps rewrite please uncomment below code
-#RewriteEngine On 
-#RewriteCond %{HTTPS} =on
-#RewriteCond %{HTTP_HOST} ^domainname
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 ######################################
 
 ######################################
