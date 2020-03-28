@@ -1,4 +1,14 @@
+######################################
+##### if required htpps rewrite please uncomment below code
+#RewriteEngine On 
+#RewriteCond %{HTTPS} =on
+#RewriteCond %{HTTP_HOST} ^domainname
+######################################
+
+######################################
+#### Display index.html at 404,403,401,500
 ErrorDocument 500 /index.html
 ErrorDocument 401 /index.html
 ErrorDocument 403 /index.html
 ErrorDocument 404 /index.html
+######################################
