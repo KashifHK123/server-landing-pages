@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Test Page for the Nginx HTTP Server on Red Hat Enterprise Linux</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            /*<![CDATA[*/
+            body {
+                background-color: #fff;
+                color: #000;
+                font-size: 0.9em;
+                font-family: sans-serif,helvetica;
+                margin: 0;
+                padding: 0;
+            }
+            :link {
+                color: #c00;
+            }
+            :visited {
+                color: #c00;
+            }
+            a:hover {
+                color: #f50;
+            }
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 0.6em 2em 0.4em;
+                background-color: #900;
+                color: #fff;
+                font-weight: normal;
+                font-size: 1.75em;
+                border-bottom: 2px solid #000;
+            }
+            h1 strong {
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            h2 {
+                text-align: center;
+                background-color: #900;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: #fff;
+                margin: 0;
+                padding: 0.5em;
+                border-bottom: 2px solid #000;
+            }
+            hr {
+                display: none;
+            }
+            .content {
+                padding: 1em 5em;
+            }
+            .alert {
+                border: 2px solid #000;
+            }
+
+            img {
+                border: 2px solid #fff;
+                padding: 2px;
+                margin: 2px;
+            }
+            a:hover img {
+                border: 2px solid #294172;
+            }
+            .logos {
+                margin: 1em;
+                text-align: center;
+            }
+            /*]]>*/
+        </style>
+    </head>
+
+    <body>
+        <h1>Welcome to <strong>nginx</strong> on Red Hat Enterprise Linux!</h1>
+
+        <div class="content">
+            <p>This page is used to test the proper operation of the
+            <strong>nginx</strong> HTTP server after it has been
+            installed. If you can read this page, it means that the
+            web server installed at this site is working
+            properly.</p>
+
+            <div class="alert">
+                <h2>Website Administrator</h2>
+                <div class="content">
+                    <p>This is the default <tt>index.html</tt> page that
+                    is distributed with <strong>nginx</strong> on
+                    Red Hat Enterprise Linux.  It is located in
+                    <tt>/usr/share/nginx/html</tt>.</p>
+
+                    <p>You should now put your content in a location of
+                    your choice and edit the <tt>root</tt> configuration
+                    directive in the <strong>nginx</strong>
+                    configuration file
+                    <tt>/etc/nginx/nginx.conf</tt>.</p>
+
+                    <p>For information on Red Hat Enterprise Linux, please visit the <a href="http://www.redhat.com/">Red Hat, Inc. website</a>. The documentation for Red Hat Enterprise Linux is <a href="http://www.redhat.com/docs/manuals/enterprise/">available on the Red Hat, Inc. website</a>.</p>
+
+                </div>
+            </div>
+
+            <div class="logos">
+                <a href="http://nginx.net/"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAAgAQMAAAAMtUU1AAAABlBMVEUAmQD///95z9q8AAAAAnRSTlP/AOW3MEoAAAABYktHRAH/Ai3eAAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAB5AAAAIACse8WiAAAA4ElEQVQoz63RMWrEMBAF0G+0oGZBFxCeiyzxVXKQBQ/4Yu5yjX8EuXMx+KeQttikC1H5QNKfP9D7cfwBDl1Lw3Icuj4WfTmoMMJIRTVtDq4vOGtRcnAJ21FItZqv5KC9gHOK7GAJ25RJ7TadxcH8Ajdv5mAKy9pIwfbPxcFpwAUjVgc95iKJcbMGObg/O5x3Oyc5yEc1B9mqRZKDrVYDSD4GnPe5YCL357gStw4e49ELlj2RU4xvhZ4jxQgm79FzjOjaO5QYw4l9fIsxvlqHJUZBOnuFa4wKf5b8aw3/sNtvy7ZOnyqzm5sAAAAASUVORK5CYII=" 
+                    alt="[ Powered by nginx ]"
+                    width="121" height="32" /></a>
+                <a href="http://www.redhat.com/"><img
+                    src="data:image/png;base64,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"
+                    alt="[ Powered by Red Hat Enterprise Linux ]"
+                    width="88" height="31" /></a>
+            </div>
+        </div>
+    </body>
+</html>
+
