@@ -32,3 +32,18 @@ ErrorDocument 401 /index.html
 ErrorDocument 403 /index.html
 ErrorDocument 404 /index.html
 ######################################
+
+
+
+
+######################################
+#### HostGator Support Team provide this code
+#RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#RewriteOptions inherit
+#RewriteEngine on
+#Header set content-Security-Policy: upgrade-insecure-requests
+
+######################################
