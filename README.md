@@ -13,16 +13,16 @@ Landing pages for Servers at hostname domain.
 
 ### 6: Plesk Error Pages
 1. [Bad Gateway](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/bad_gateway.html)
-2. Bad Request
-3. Forbidden
-4. I nternal Server Error
-5. Maintenance
-6. Method Not Allowed
-7. Not Acceptable
-8. Not Found
-9. Not Implemented
-10. Precondition Failed
-11. Proxy Authentication Required
-12. Request Uri Too Long
-13. Unauthorized
-14. Unsupported Media Type
+2. [Bad Request](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/bad_request.html)
+3. [Forbidden](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/forbidden.html)
+4. [I nternal Server Error](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/internal_server_error.html)
+5. [Maintenance](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/maintenance.html)
+6. [Method Not Allowed](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/method_not_allowed.html)
+7. [Not Acceptable](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/not_acceptable.html)
+8. [Not Found](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/not_found.html)
+9. [Not Implemented](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/not_implemented.html)
+10. [Precondition Failed](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/precondition_failed.html)
+11. [Proxy Authentication Required](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/proxy_authentication_required.html)
+12. [Request Uri Too Long](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/request-uri_too_long.html)
+13. [Unauthorized](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/unauthorized.html)
+14. [Unsupported Media Type](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/unsupported_media_type.html)
