@@ -13,7 +13,9 @@ Landing pages for Servers at hostname domain.
 
 ### 6: Funny Lost 404 Error Page  [Demo Link](https://kashifhk123.github.io/server-landing-pages/Funny_Lost_404_Page_1.html) ![ScreenShot](https://raw.githubusercontent.com/KashifHK123/server-landing-pages/master/screenshot/Funny_Lost_404_Page_1.png)
 
-### 7: Plesk Error Pages
+### 7: 20i Landing Page  [Demo Link](https://kashifhk123.github.io/server-landing-pages/20i-Landing-Page.html) ![ScreenShot](https://raw.githubusercontent.com/KashifHK123/server-landing-pages/master/screenshot/20i-Landing-Page.png)
+
+### 8: Plesk Error Pages
 1. [Bad Gateway](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/bad_gateway.html)
 2. [Bad Request](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/bad_request.html)
 3. [Forbidden](https://kashifhk123.github.io/server-landing-pages/Plesk_Error_Pages/forbidden.html)
